@@ -42,7 +42,7 @@
 
   ;; Add a bunch of window managers; we can choose one at
   ;; the log-in screen with F1.
-  (packages (cons* ;; i3-wm i3status dmenu ;window managers
+  (packages (cons* ;; bspwm i3-wm i3status dmenu ;window managers
                    nss-certs                      ;for HTTPS access
                    %base-packages))
 
